@@ -1,0 +1,42 @@
+/* 노말 */
+body, ul, li {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+/* lib */
+.con {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.img-box > img {
+    width:100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+/* cus */
+.con {
+    max-width:1760px;
+}
+
+.con-min-width {
+    min-width:1240px;
+}
+
+.box-1 > div > .img-box > img {
+    border-radius: 10px;
+}
+
+.box-1 > div:not(:last-child) {
+    margin-right:30px;
+}
